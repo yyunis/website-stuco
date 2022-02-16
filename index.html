@@ -17,7 +17,7 @@
 		}
 
 		#banner {
-			position: absolute;
+			position: fixed;
 			top: 0;
 			left: 0;
 			right: 0;
@@ -26,7 +26,7 @@
 		}
 
 		.main_left_text {
-			position: absolute;
+			position: fixed;
 			margin-top: 18%;
 			width: 33%;
 			margin-left: 20%;
@@ -37,7 +37,7 @@
 		}
 
 		#right_img {
-			position: absolute;
+			position: fixed;
 			width: 300px;
 			margin-top: 12%;
 			margin-left: 58%;
@@ -48,11 +48,61 @@
 			width: 100%;
 			font-size: 12px;
 		}
+
+		body {
+			margin: 0;
+		}
+
+		/* NAV BAR */
+
+		.nav-bar {
+			width: 100%;
+			height: 50px;
+			margin: 0;
+			background: rgb(105, 133, 154);
+			position: sticky;
+			top: 0;
+
+			/* Toggle between static and sticky */
+
+			/*position: sticky;
+			top: 0; */
+		}
+
+		.nav-bar > .element {
+			width: 19.5%;
+			line-height: 50px;
+			text-align: center;
+			color: white;
+			display: inline-block;
+			margin: 0;
+			font-family: Arial;
+			text-decoration: none;
+		}
+
+		.nav-bar > .element:hover { 
+  			text-decoration: underline;
+		}	
+
+		/* BODY */
+
+		.content {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		
 	</style>
 
-	<div class="center_img">
-		<img id="banner" src="header.jpeg">
+	<div class="nav-bar">
+		<a href="https://yyunis.github.io/" class="element"> Courses </a>
+		<a href="https://yyunis.github.io/" class="element"> Experiences </a>
+		<a href="https://yyunis.github.io/" class="element"> Eunice Lee </a>
+		<a href="https://yyunis.github.io/" class="element"> Projects </a>
+		<a href="https://yyunis.github.io/" class="element"> Film </a>
 	</div>
+
+
 	<img id="right_img" src="profile.jpeg">
 	<div class="main_left_text">
 	    <p> Hi, I'm Eunice! </p>
