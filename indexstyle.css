@@ -1,46 +1,79 @@
-h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 800;
-    color:rgb(70, 80, 110);
-    font-size: 85px;
-    margin-left: 10%;
+/* main text on home page */
+.main-center-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(70, 80, 100);
+    font-size: 75px;
+    text-align: center;
+    position: relative;
+    line-height: 200px;
+    margin-top: 9%;
+    margin-bottom: -3%;
 }
 
-h5 {
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(70, 80, 110);
+.main-center-subtext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(70, 80, 100);
     font-size: 15px;
-    margin-left: 12%;
     position: relative;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 }
 
 /* NAV BAR */
+/* help from: https://www.w3schools.com/howto/howto_css_topnav_right.asp */
 .nav-bar {
     width: 100%;
     height: 50px;
     margin: 0;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 246, 230);
     position: sticky;
     top: 0;
 }
 
+
 .nav-bar > .element {
-    width: 19.5%;
-    line-height: 50px;
+    float: left;
+    color: rgb(70, 80, 100);
     text-align: center;
-    color: rgb(70, 80, 110);
-    display: inline-block;
-    margin: 0;
-    font-family: Times;
+    padding: 10px 40px;
     text-decoration: none;
+    font-family: Times;
+    line-height: 50px;
+    
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right > .element {
+    float: right;
+    color: rgb(70, 80, 100);
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: Times;
+    line-height: 50px;
 }
 
 .nav-bar > .element:hover { 
-      text-decoration: underline;
+    color:rgb(129, 149, 181);
+    text-decoration: solid;
+}	
+
+.nav-right > .element:hover { 
+    color:rgb(129, 149, 181);
+    text-decoration: solid;
 }	
 
 /* BODY */
 .content {
     width: 80%;
     margin-left: 10%;
+}
+
+.background {
+    background-color: rgb(255, 246, 230);
 }
