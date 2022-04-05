@@ -5,9 +5,9 @@
     font-size: 75px;
     text-align: center;
     position: relative;
-    line-height: 200px;
-    margin-top: 9%;
-    margin-bottom: -3%;
+    line-height: 110px;
+    margin-top: 11%;
+    margin-bottom: 20px;
 }
 
 .main-center-subtext {
@@ -18,6 +18,7 @@
     position: relative;
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -92,20 +93,61 @@
 }
 
 /*for typewriter effect (tutorial: https://www.sitepoint.com/css-typewriter-effect/) */
+/*animation delay idea https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay */
 .typed-out {
     overflow: hidden;
-    border-right: .08em solid transparent ;
+    border-right: .08em solid transparent;
     white-space: nowrap;
     letter-spacing: .03em;
     margin: 0 auto;
     animation: 
-        typing 3s steps(30, end),
-        blinking .65s step-end 8;
+        typing 3.5s steps(40, end),
+        blinking .6s step-end 10;
 }
 
-.typed-out > .delay {
-    animation-delay: 5s;
-    letter-spacing: 0.001em;
+.typed-out-delayed {
+    opacity: 0;
+    overflow: hidden;
+    border-right: .09em solid transparent;
+    white-space: nowrap;
+    letter-spacing: .03em;
+    margin: 0 auto;
+    animation: 
+        typing 5s steps(45, end),
+        blinking .5s step-end 13;
+    animation-delay: 6s;
+    opacity: 1;
+    animation-fill-mode: both;
+}
+
+.typed-out-delayed-2 {
+    opacity: 0;
+    overflow: hidden;
+    border-right: .09em solid transparent;
+    white-space: nowrap;
+    letter-spacing: .03em;
+    margin: 0 auto;
+    animation: 
+        typing 5s steps(45, end),
+        blinking .5s step-end 13;
+    animation-delay: 13.25s;
+    opacity: 1;
+    animation-fill-mode: both;
+}
+
+.typed-out-delayed-3 {
+    opacity: 0;
+    overflow: hidden;
+    border-right: .09em solid transparent;
+    white-space: nowrap;
+    letter-spacing: .03em;
+    margin: 0 auto;
+    animation: 
+        typing 5s steps(45, end),
+        blinking .5s step-end 14;
+    animation-delay: 20.25s;
+    opacity: 1;
+    animation-fill-mode: both;
 }
 
 .container {
