@@ -163,3 +163,54 @@
     from, to { border-color: transparent }
     50% { border-right: .08em solid rgb(70, 80, 100) }
 }
+
+/*ABOUT PAGE CSS */
+.about-headline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(56, 64, 80);
+    font-size: 85px;
+    text-align: left;
+    position: relative;
+    line-height: 110px;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+}
+
+.about-photo-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(70, 77, 90);
+    font-size: 18px;
+    position: relative;
+    width: 37%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    text-align: left;
+}
+
+.reg-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(70, 77, 90);
+    font-size: 18px;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-blue-box {
+    background: rgb(73, 78, 88);
+    position: absolute;
+    margin-left: 57%;
+    margin-top: -16%;
+    width: 320px;
+    height: 230px;
+}
+
+.about-pfp {
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -18%;
+}
