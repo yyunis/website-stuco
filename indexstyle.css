@@ -12,7 +12,6 @@
 
 .main-center-subtext {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(70, 80, 100);
     font-size: 15px;
     position: relative;
@@ -230,5 +229,85 @@
     position: relative;
     margin-left: 10%;
     margin-top: 0%;
+    z-index: -1;
+}
+
+/* for courses */
+.course-main-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(56, 64, 80);
+    font-size: 60px;
+    text-align: left;
+    position: relative;
+    line-height: 100px;
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-bottom: 0%;
+    z-index: -1;
+}
+
+.grey-subtext {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 126, 130);
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    margin-left: 18%;
+    z-index: -1;
+}
+
+.c-reg-font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(72, 82, 100);
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    z-index: -1;
+}
+
+.semester-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(48, 55, 68);
+    font-size: 22px;
+    text-align: left;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    z-index: -1;
+}
+
+.class-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(72, 82, 100);
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    margin-left: 4%;
+    margin-top: 2%;
+    z-index: -1;
+}
+
+.class-notes {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(72, 82, 100);
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    z-index: -1;
+}
+
+.workload {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(64, 72, 89);
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
     z-index: -1;
 }
