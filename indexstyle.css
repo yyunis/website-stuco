@@ -269,7 +269,7 @@
 
 .semester-title {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(48, 55, 68);
+    color: rgb(37, 42, 52);
     font-size: 22px;
     text-align: left;
     position: relative;
@@ -311,4 +311,30 @@
     margin-left: 2%;
     margin-top: 2%;
     z-index: -1;
+}
+
+/* RESUME */
+.main-pdf {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.main-vid {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+a:link {
+    color:rgb(126, 126, 130);
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(57, 57, 78);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(57, 57, 78);
+    text-decoration: underline;
 }
