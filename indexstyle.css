@@ -175,7 +175,7 @@
     position: relative;
     line-height: 110px;
     margin-top: 4%;
-    margin-left: 8%;
+    margin-left: 39%;
     margin-bottom: 40px;
 }
 
@@ -184,7 +184,7 @@
     color:rgb(70, 77, 90);
     font-size: 18px;
     position: relative;
-    width: 37%;
+    width: 45%;
     margin-left: 15%;
     margin-bottom: 20px;
     margin-right: 0%;
@@ -202,20 +202,6 @@
     text-align: left;
 }
 
-.about-blue-box {
-    background: rgb(73, 78, 88);
-    position: absolute;
-    margin-left: 57%;
-    margin-top: -16%;
-    width: 320px;
-    height: 230px;
-}
-
-.about-pfp {
-    position: absolute;
-    margin-left: 59%;
-    margin-top: -18%;
-}
 
 
 .film-1 {
