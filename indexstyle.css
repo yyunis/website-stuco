@@ -239,7 +239,7 @@
     text-align: left;
     position: relative;
     margin-left: 18%;
-    z-index: -1;
+    width: 64%;
 }
 
 .c-reg-font {
