@@ -171,11 +171,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(56, 64, 80);
     font-size: 85px;
-    text-align: left;
+    text-align: center;
     position: relative;
     line-height: 110px;
     margin-top: 4%;
-    margin-left: 39%;
     margin-bottom: 40px;
 }
 
@@ -185,10 +184,9 @@
     font-size: 18px;
     position: relative;
     width: 45%;
-    margin-left: 15%;
     margin-bottom: 20px;
     margin-right: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 .reg-text {
